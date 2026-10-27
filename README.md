@@ -69,6 +69,13 @@ fullstack-tp/
 ### 3. Interface de gestion des produits
 
 ![Gestion des produits](./docs/screenshots/products-admin.png)
+### 4. Docker Hub — Images publiées
+
+![Docker Hub](./docs/screenshots/docker-hub.png)
+
+### 5. Docker Desktop — Conteneurs
+
+![Docker Desktop](./docs/screenshots/docker-cont.png)
 
 
 
