@@ -141,8 +141,7 @@ Consultez le fichier `package.json` du dossier `api` pour connaître les scripts
 \## Auteur
 
 
-
-Projet académique — Développement Full Stack.
+hyba farhat
 
 
 
