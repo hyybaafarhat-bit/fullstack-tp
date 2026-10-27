@@ -1,0 +1,44 @@
+
+### Vérifier l'état de l'API
+GET http://localhost:4000/api/health
+
+### Récupérer tous les produits
+GET http://localhost:4000/api/products
+
+### Connexion administrateur
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "REMPLACER_PAR_VOTRE_MOT_DE_PASSE"
+}
+
+### Ajouter un produit
+# Remplacer VOTRE_TOKEN par le token obtenu après connexion
+POST http://localhost:4000/api/products
+Content-Type: application/json
+Authorization: Bearer VOTRE_TOKEN
+
+{
+  "name": "Coque Protection Premium",
+  "price": 24.9,
+  "description": "Coque de protection pour smartphone",
+  "image": null
+}
+
+### Modifier un produit
+PUT http://localhost:4000/api/products/1
+Content-Type: application/json
+Authorization: Bearer VOTRE_TOKEN
+
+{
+  "name": "Coque Protection Premium - Modifiée",
+  "price": 29.9,
+  "description": "Coque renforcée pour smartphone",
+  "image": null
+}
+
+### Supprimer un produit
+DELETE http://localhost:4000/api/products/1
+Authorization: Bearer VOTRE_TOKEN
