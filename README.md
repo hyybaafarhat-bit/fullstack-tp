@@ -56,33 +56,19 @@ fullstack-tp/
 
 
 
-\## Captures d'écran
+## Captures d'écran
 
+### 1. Application Angular
 
+![Application Angular](./docs/screenshots/angular-home.png)
 
-\### 1. Application Angular
+### 2. Application Next.js
 
+![Application Next.js](./docs/screenshots/nextjs-home.png)
 
+### 3. Interface de gestion des produits
 
-
-
-!\[Application Angular](docs/screenshots/angular-home.png)
-
-
-
-\### 2. Application Next.js
-
-
-
-!\[Application Next.js](docs/screenshots/nextjs-home.png)
-
-
-
-\### 3. Interface de gestion des produits
-
-
-
-!\[Gestion des produits](docs/screenshots/products-admin.png)
+![Gestion des produits](./docs/screenshots/products-admin.png)
 
 
 
